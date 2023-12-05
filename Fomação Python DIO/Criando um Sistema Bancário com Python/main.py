@@ -25,7 +25,7 @@ while True:
     else:
       "Por favor, digite um valor válido para deposito."
 
-  #Opção 1 Funcionando corretamente até aqui.   
+  #Opção 1 Funcionando corretamente.   
 
   elif opcao == 2:
     numero_saques += 1
@@ -49,6 +49,8 @@ while True:
         print(f"Você possui {saques_restantes} saques restantes") 
     else:
       print(f"Você não tem saldo suficiente!\nSeu Saldo Atual é de R$ {saldo:.2f}")
+    
+  #Opção 2 funcionando corretamente.
 
   elif opcao == 3:
 
@@ -60,9 +62,13 @@ while True:
       print(extrato)
       print(25*"=","\n",f"Seu saldo atual é R$ {saldo:.2f}")
 
+  #Opção 3 funcionando corretamente.
+
   elif opcao == 0:
     print("Obrigado por usar nosso sistema bancário! Volte sempre")
     break
 
   else:
     print("Opção inválida, por favor tente novamente!")
+
+  #Opção 4 funcionando corretamente.
